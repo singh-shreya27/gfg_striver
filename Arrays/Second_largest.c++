@@ -12,3 +12,6 @@ if(arr[i]!=largest){
 
 //Better solution approach:
 //we will do the first pass and find out the largest element.
+
+
+//Optimal solution
