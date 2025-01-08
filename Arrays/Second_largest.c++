@@ -1,4 +1,4 @@
-//commonly asked in an interview.
+                                            //commonly asked in an interview.
 //brute force approach.
 //sort the array first then largest element will be arr[n-1] but we cannot say that second largest will be arr[n-2] because they can be same.
 //so loop will start from (n-2)th index
