@@ -21,7 +21,7 @@ for(int i=0;i<arr.size();i++){           //O(n)
      largest=arr[i];
 }
 //second pass
-//Now, keep second largest as -1,   Slargest will be INT_MIN if negatives are there.
+//Now, keep second largest as -1,   sLargest will be INT_MIN if negatives are there.
 sLargest=-1;
 for(int i=0;i<arr.size();i++){
    if(arr[i]>sLargest && arr[i]!=largest)       //O(n)
@@ -32,4 +32,12 @@ for(int i=0;i<arr.size();i++){
 
                           //Optimal solution
 int largest=arr[0]; 
-int sLargest=-1;
+int sLargest=-1;        //sLargest will be INT_MIN if negatives are there.
+
+//iterate through the array and check each element if it is greater than largest then that element will be second largest, so replace both largest and second largest.
+
+//CODING NINJAS:FIND SECOND LARGEST AS WELL AS SECOND SMALLEST.
+vector<int> getSecondOrderElements(int n, vector<int> a){
+  int slargest = secondLargest;
+  int ssmallest = 
+
